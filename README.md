@@ -4,16 +4,14 @@ Autor: **Filip Galiński**
 Baza: **Oracle Database 21c XE** (XEPDB1)  
 Narzędzie: **SQL*Plus** / **SQL Developer**
 
+[Treść Zadań](screenshots/tresc.png)
 Zadania:
-
 - **Zadania 1–2** – projekt **COMPARATOR**  
 - **Zadanie 3** – projekt **RESERVATION**  
 - **Zadania 4–5** – projekt **REPORTS**
 
 [WYMAGANIA WSTĘPNE](#wymagania-wstępne) • [STRUKTURA KATALOGÓW I PLIKÓW](#Struktura-katalogów-i-plików) • [JAK URUCHOMIĆ CAŁY ZESTAW ZADAŃ](#Jak-uruchomić-cały-zestaw-zadań)
 
----
-[![Treść Zadań](screenshots/tresc.png)](screenshots/tresc.png)
 
 ---
 
