@@ -1,16 +1,27 @@
-# Zadania
+# Oracle-PLSQL-Business-Logic-Suite
+[-->Treść Zadań<--](screenshots/tresc.png)
 
-Autor: **Filip Galiński**  
-Baza: **Oracle Database 21c XE** (XEPDB1)  
-Narzędzie: **SQL*Plus** / **SQL Developer**
-
-[Treść Zadań](screenshots/tresc.png)
 Zadania:
 - **Zadania 1–2** – projekt **COMPARATOR**  
 - **Zadanie 3** – projekt **RESERVATION**  
 - **Zadania 4–5** – projekt **REPORTS**
 
 [WYMAGANIA WSTĘPNE](#wymagania-wstępne) • [STRUKTURA KATALOGÓW I PLIKÓW](#Struktura-katalogów-i-plików) • [JAK URUCHOMIĆ CAŁY ZESTAW ZADAŃ](#Jak-uruchomić-cały-zestaw-zadań)
+
+---
+
+## Technologie i kluczowe koncepcje
+
+**Środowisko i języki:**
+* **Baza danych:** Oracle Database 21c XE
+* **Język:** SQL, zaawansowany PL/SQL
+* **Narzędzia:** Oracle SQL Developer, SQL*Plus
+
+**Wykorzystane mechanizmy i zagadnienia architektoniczne:**
+* **Współbieżność i blokady:** Rozwiązywanie problemu *race conditions* i ścisła kontrola zasobów przy użyciu `SELECT ... FOR UPDATE`.
+* **Autonomiczne transakcje:** Niezależne logowanie zdarzeń audytowych (niezależnie od głównej transakcji) z wykorzystaniem `PRAGMA AUTONOMOUS_TRANSACTION`.
+* **Zaawansowana analityka SQL:** Użycie funkcji okna (Window Functions, m.in. `ROW_NUMBER() OVER`) oraz Common Table Expressions (CTE) do czytelnego i wydajnego przetwarzania.
+* **Przetwarzanie danych:** Wykorzystanie tabel tymczasowych do procesowania różnic w dużych zbiorach danych, agregacje, wyrażenia regularne (`REGEXP_LIKE`) do walidacji danych wejściowych.
 
 
 ---
