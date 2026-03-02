@@ -90,7 +90,7 @@ Plik: `03_comparator_tests.sql`
 
 ---
 
-## 3. RESERVATION (Zadanie 3 + anulowanie „dla chętnych”)
+## 3. RESERVATION (Zadanie 3 + anulowanie)
 
 ### Cel
 
@@ -100,7 +100,7 @@ Symulacja systemu rezerwacji biletów na wydarzenie:
 - maksymalnie jedna rezerwacja na PESEL,
 - obsługa wielu równoległych sesji,
 - wymóg logowania każdej próby (udanej i nieudanej) w dedykowanej tabeli,
-- dodatkowo: procedura anulowania rezerwacji (część „dla chętnych”).
+- dodatkowo: procedura anulowania rezerwacji.
 
 ### Tabele i sekwencja
 
@@ -174,7 +174,7 @@ Zachowanie:
 
 Każda próba (niezależnie od statusu) jest logowana przez pomocniczą procedurę `log_attempt` działającą w autonomicznej transakcji (`PRAGMA AUTONOMOUS_TRANSACTION`).
 
-#### Procedura anulowania: `cancel_ticket` (dla chętnych)
+#### Procedura anulowania: `cancel_ticket`
 
 Specyfikacja:
 
