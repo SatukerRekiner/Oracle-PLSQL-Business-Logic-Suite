@@ -1,5 +1,5 @@
 -- 02_reservation_pkg.sql
--- PROJEKT REZERWACJA MIEJSC – Zadanie 3 (+ dla chętnych: anulowanie)
+-- PROJEKT REZERWACJA MIEJSC – Zadanie 3 (+ anulowanie)
 --
 -- Statusy (stałe – zamiast "magicznych" liczb w kodzie):
 --   c_status_ok             = 0  -- OK (rezerwacja/anulowanie wykonane)
@@ -40,7 +40,7 @@ CREATE OR REPLACE PACKAGE reservation_pkg AS
         p_idr     OUT VARCHAR2
     );
 
-    -- Dla chętnych: procedura anulowania rezerwacji
+    -- procedura anulowania rezerwacji
     PROCEDURE cancel_ticket (
         p_pesel   IN  VARCHAR2,
         p_idr     IN  VARCHAR2,
@@ -256,4 +256,5 @@ CREATE OR REPLACE PACKAGE BODY reservation_pkg AS
 END reservation_pkg;
 /
 SHOW ERRORS PACKAGE BODY reservation_pkg;
+
 
