@@ -14,7 +14,7 @@ Zadania:
 
 **Środowisko i języki:**
 * **Baza danych:** Oracle Database 21c XE
-* **Język:** SQL, zaawansowany PL/SQL
+* **Język:** SQL
 * **Narzędzia:** Oracle SQL Developer, SQL*Plus
 
 **Wykorzystane mechanizmy i zagadnienia architektoniczne:**
